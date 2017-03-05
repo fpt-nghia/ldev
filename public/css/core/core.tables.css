@@ -1,0 +1,19 @@
+table thead th.c-sorting {
+  background-image: url("../../img/core/sort_both.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0;
+}
+table thead th.c-sorting-asc {
+  background-image: url("../../img/core/sort_asc.png");
+}
+table thead th.c-sorting-desc {
+  background-image: url("../../img/core/sort_desc.png");
+}
+
+table thead th.c-sorting a {
+  display: block;
+  padding-top: 7px;
+}
